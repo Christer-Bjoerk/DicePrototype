@@ -21,10 +21,7 @@ public class ChangeColour : MonoBehaviour
     {
         for (int i = 0; i < diceMaterials.Count; i++)
         {
-            if (i == diceNumber)
-            {
-                diceMesh.material = diceMaterials[i];
-            }
+            if (i == diceNumber) diceMesh.material = diceMaterials[i];
         }
     }
 }

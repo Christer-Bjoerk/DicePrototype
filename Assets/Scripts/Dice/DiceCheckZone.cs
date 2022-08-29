@@ -5,7 +5,6 @@ public class DiceCheckZone : MonoBehaviour
     [SerializeField] private DiceDataScriptableObject diceData;
     private int diceNumber;
 
-
     private void OnTriggerStay(Collider other)
     {
         // Only update the text if the dice is completely still
